@@ -8,7 +8,7 @@ featuredimage: /img/crest120_8png.png
 tags:
   - welcome
 ---
-![Lodge Crest Jewel](/img/crest120_8png.png)
+![ ](/img/crest120_8png.png)
 
 We’re a friendly and welcoming lodge which meets at Freemason’s Hall, London.
 
