@@ -9,11 +9,8 @@ mainpitch:
   description: >
     Royal Commemoration 1585 is a general lodge, open to brothers from all walks
     of life.
-description: Royal Commemoration
 intro:
   blurbs: []
-  heading: ' '
-  description: ' '
 main:
   heading: A lodge for anyone
   description: >
