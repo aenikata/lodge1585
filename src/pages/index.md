@@ -1,13 +1,13 @@
 ---
 templateKey: index-page
-title: Royal Commemoration Lodge 1585
+title: Royal Commemoration
 image: /img/freemasons_hall_london_grand_temple.jpg
 heading: Royal Commemoration
-subheading: Lodge 1585
+subheading: Lodge No. 1585
 mainpitch:
   title: About Us
   description: >
-    Royal Commemoration 1585 is a general lodge, open to brothers from all walks
+    Royal Commemoration Lodge No. 1585 is a general lodge, open to brothers from all walks
     of life.
 intro:
   blurbs: []
