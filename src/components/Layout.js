@@ -5,6 +5,9 @@ import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+import Appleicon from '../img/apple-touch-iconrc.png'
+import Favicon16 from '../img/favicon-16x16rc.png'
+import Favicon32 from '../img/favicon-32x32rc.png'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -18,18 +21,18 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-iconrc.png`}
+          href={Appleicon}
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32rc.png`}
+          href={Favicon32}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16rc.png`}
+          href={Favicon16}
           sizes="16x16"
         />
 
