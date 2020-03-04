@@ -9,7 +9,7 @@ tags:
   - architcture
   - freemasons hall
 ---
-![freemasons hall](/img/freemasons-_hall-_london.jpg)
+![](/img/freemasons-_hall-_london.jpg)
 
 Royal Commemoration Lodge holds its lodge meetings at Freemasons' Hall, London.
 
