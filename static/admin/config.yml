@@ -50,6 +50,13 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/about/charity.md"
+        label: "Charitable Work"
+        name: "charity"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "general-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/meetings/index.md"
         label: "Meetings"
         name: "meetings"
@@ -57,3 +64,17 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "general-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/history/index.md"
+        label: "Lodge History"
+        name: "history"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "general-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      # - file: "src/pages/contact/index.md"
+      #   label: "Contact Us"
+      #   name: "contact"
+      #   fields:
+      #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "general-page"}
+      #     - {label: "Title", name: "title", widget: "string"}
+      #     - {label: "Body", name: "body", widget: "markdown"}
