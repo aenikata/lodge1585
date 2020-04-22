@@ -71,6 +71,19 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "general-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/links/index.md"
+        label: "Links"
+        name: "links"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "links-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: Heading, name: heading, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: Image, name: image, widget: image}
+          - {label: "Links", name: "links", widget: "list", fields:
+              - {label: Text, name: text, widget: "string"}
+              - {label: URL, name: url, widget: "string"}
+            }
       # - file: "src/pages/contact/index.md"
       #   label: "Contact Us"
       #   name: "contact"
