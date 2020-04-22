@@ -1,5 +1,5 @@
 ---
-templateKey: meetings-page
+templateKey: general-page
 path: /meetings
 title: Royal Commemoration Lodge's Meetings
 ---
